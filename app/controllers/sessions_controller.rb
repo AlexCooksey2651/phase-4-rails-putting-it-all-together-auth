@@ -18,4 +18,10 @@ class SessionsController < ApplicationController
             render json: {errors: "User is not currently logged in"}, status: :unauthorized
         end
     end
+
+    # private 
+
+    # def unauthorized
+    #     render json: {errors: }
+    # end
 end
